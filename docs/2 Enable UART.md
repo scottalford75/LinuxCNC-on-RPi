@@ -1,6 +1,5 @@
 ---
 title: 2. Enable RPi UART on Arch Linux
-layout: page
 nav: true
 ---
 

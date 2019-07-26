@@ -1,7 +1,6 @@
 ---
 title: Home
-layout: page
----
+--
 
 <div> 
     <img src="{{ '/images/linuxcnc-wizard.gif' | absolute_url }}" alt="LinuxCNC" style="width=65">
