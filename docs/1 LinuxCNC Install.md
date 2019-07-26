@@ -16,6 +16,7 @@ Therefore, the search was on to find a distribution that would give this functio
 Arch Linux is a lightweight Linux distribution with rolling updates. Unlike Raspbian there is no prepared SD card image available so the initial installation is a little more involved. There is good installation instruction of the Arch Linux Arm site:
 
 <https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3>
+<https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-4>
 
 > *TODO* – script use <http://eyesfreelinux.ninja/posts/raspberry-pi-arch-and-the-fix.html> to create an image. This script also needs bsdtar, kpartx, and parted.
 
