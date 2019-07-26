@@ -1,10 +1,10 @@
 ---
 title: Home
---
+---
 
 <div> 
-    <img src="{{ '/images/linuxcnc-wizard.gif' | absolute_url }}" alt="LinuxCNC" style="width=65">
-    <img src="{{ '/images/RaspberryPi.jpg' | absolute_url }}" alt="RPi" style="width=65">
+    <img src="{{ '/images/linuxcnc-wizard.gif' | absolute_url }}" alt="LinuxCNC">
+    <img src="{{ '/images/RaspberryPi.jpg' | absolute_url }}" alt="RPi">
 </div>
 
 # LinuxCNC on RPi 
