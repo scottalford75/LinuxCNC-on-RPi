@@ -1,5 +1,7 @@
 # LinuxCNC-on-RPi
 
+<https://scottalford75.github.io/LinuxCNC-on-RPi/>
+
 ## Whay LinuxCNC on Raspberry Pi?
 
 I've played with LinuxCNC for quite some years, from right back when it was known as EMC2. When PC's with parallel ports were common it was very straighforward to get up an going with a simple stepper system.
