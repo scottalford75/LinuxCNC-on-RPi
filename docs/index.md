@@ -31,7 +31,7 @@ Having a low cost and accessable hardware platform for LinuxCNC is important if 
 
 It has been perceived that the Raspberry Pi has not been a viable hardware for LinuxCNC due to several reasons:
 
-- Realtime performance not great for `base-thread` step gernerators
+- Realtime performance is not great for `base-thread` step gernerators
 - UI performace poor resulting in frustrating user experience
 
 So what's changed...? 
