@@ -21,7 +21,7 @@ dtoverlay=pi3-diable-bt
 enable_uart=1
 ```
 
-Note: the above will disable Bluetooth. Alternately the mini-UART can be mapped to the Bluetooth module. Change the dtoverlay line to pi3-miniuart-bt.
+Note: the above will disable Bluetooth. Alternately the mini-UART can be mapped to the Bluetooth module. Change the `dtoverlay` line to `pi3-miniuart-bt`.
 
 Next, we modify the cmdline.txt file to remove parameters involving serial port “ttyAMA0”.
 
