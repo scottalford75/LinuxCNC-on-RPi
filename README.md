@@ -27,6 +27,6 @@ The standard Axis UI for LinuxCNC placed a lot of load onto the RPi. There is no
 
 ### spiPRU
 
-I have developed **spiPRU** that turns a cheap 32bit 3D Printer control board into a PRU (programmable real-time unit) connected to the RPi via the SPI bus. This then gives true real-time step generators for the RPi similar to the Beaglebone inbuilt RPU's.
+I have developed **spiPRU** that turns a cheap 32bit 3D Printer control board into a PRU (programmable real-time unit) connected to the RPi via the SPI bus. This then gives hard real-time step generators for the RPi similar to the Beaglebone inbuilt RPU's.
 
 For <$150 it's now possible to have a LinuxCNC system!
