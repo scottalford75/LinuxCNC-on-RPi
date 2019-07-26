@@ -4,6 +4,8 @@
 
 I've played with LinuxCNC for quite some years, from right back when it was known as EMC2. When PC's with parallel ports were common it was very straighforward to get up an going with a simple stepper system.
 
+Having a low cost and accessable hardware platform for LinuxCNC is important if we want to use LinuxCNC for 3D printing for example. Having a controller box the size of the printer itself makes no sense. A SoC based single board computer would be ideal for this application. The Beaglebone is proven in this area but is cost prohibitive. Is it possible for the humble RPi do do the job...
+
 It has been perceived that the Raspberry Pi has not been a viable hardware for LinuxCNC due to several reasons:
 
 - Realtime performance not great for `base-thread` step gernerators
