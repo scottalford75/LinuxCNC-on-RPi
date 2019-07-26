@@ -11,3 +11,10 @@ title: Home
 
 Home page for LinuxCNC on RPi
 
+<div class="toc" markdown="1">
+## Contents:
+
+{% for topic in site.pages %}
+{% if topic.nav == true %}- [{{ topic.title }}]({{ topic.url | absolute_url }}){% endif %}
+{% endfor %}
+</div>
