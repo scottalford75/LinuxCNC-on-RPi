@@ -29,7 +29,7 @@ Later we will setup Network Manager but initially we will configure wpa_supplica
 ```
 $ cd /etc/wpa_supplicant/  
 $ nano homenetwork`
-
+-----------------------------------------------------
 network={  
     ssid=“your ssid”  
     psk=“your pass code”    
