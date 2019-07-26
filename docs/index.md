@@ -4,7 +4,7 @@ title: Home
 
 <div> 
     <img src="{{ '/images/linuxcnc-wizard.gif' | absolute_url }}" alt="LinuxCNC">
-    <img src="{{ '/images/pi_white.png' | absolute_url }}" alt="RPi">
+    <img src="{{ '/images/pi_white.jpg' | absolute_url }}" alt="RPi">
 </div>
 
 # LinuxCNC on RPi 
