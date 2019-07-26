@@ -1,6 +1,6 @@
 # LinuxCNC-on-RPi
 
-<https://scottalford75.github.io/LinuxCNC-on-RPi/>
+The full instructions at <https://scottalford75.github.io/LinuxCNC-on-RPi/>
 
 ## Whay LinuxCNC on Raspberry Pi?
 
