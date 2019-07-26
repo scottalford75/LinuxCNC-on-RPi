@@ -1,5 +1,6 @@
 ---
 title: 1. LinuxCNC install
+layout: page
 nav: true
 ---
 
