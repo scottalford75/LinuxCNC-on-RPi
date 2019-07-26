@@ -29,7 +29,9 @@ Later we will setup Network Manager but initially we will configure wpa_supplica
 ```
 $ cd /etc/wpa_supplicant/  
 $ nano homenetwork`
------------------------------------------------------
+```
+
+```
 network={  
     ssid=“your ssid”  
     psk=“your pass code”    
@@ -73,7 +75,9 @@ The default user is “alarm” so we need to setup super user privileges.
 ```
 $ cd /etc/sudoers.d/
 $ nano myOverrides
+```
 
+```
 alarm ALL=NOPASSWD: ALL
 ```
 
@@ -103,7 +107,9 @@ If not using a session manager, install xorg-xinit.
 
 ```
 ~/.xinitrc
+```
 
+```
 exec startxfce4
 ```
 
@@ -192,7 +198,9 @@ The first time vncserver is run, it creates its initial environment, config, and
 
 ```
 $ vncserver
+```
 
+```
 You will require a password to access your desktops.
 
 Password:
@@ -295,7 +303,9 @@ The following yapps directory in `site-packages` must include the files listed.
 
 ```
 /usr/lib/python2.7/site-packages/yapps
+```
 
+```
 __init__
 __init__.pyc
 grammar
