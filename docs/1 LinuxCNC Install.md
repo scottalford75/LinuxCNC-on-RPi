@@ -285,12 +285,10 @@ The fakeroot package is needed to build Arch Linux packages from a PKGBUILD.
 $ sudo pacman –S fakeroot
 ```
 
-New versions of LinuxCNC no longer include yapps in the source. Therefore, we need to install it in the system. However, Arch Linux does not seem to have a repo for this. 
+New versions of LinuxCNC no longer include yapps in the source. Therefore, we need to install it in the system. However, Arch Linux does not seem to have a repo for this. I have included a Yapps source in the [repository] (https://github.com/scottalford75/LinuxCNC-on-RPi/tree/master/ArchLinux)
 
 ```
-/usr/bin
-
-yapps
+/usr/bin/yapps
 ```
 
 In the above python file make sure that it is pointing at python 2. The first line should read
