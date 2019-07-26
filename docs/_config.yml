@@ -1,9 +1,79 @@
- github: [metadata]
- encoding: UTF-8
- kramdown:
-   input: GFM
-   hard_wrap: false
- future: true
- jailed: false
- theme: jekyll-theme-primer
- gfm_quirks: paragraph_end
+ # workshop-template https://github.com/evanwill/workshop-template
+
+# A Jekyll template for a simple workshop website, designed for github-pages,
+
+# based on Minima theme https://github.com/jekyll/minima
+
+
+
+# Notes: 
+
+# - fig include, {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
+
+# - pages with "nav: true" in front matter will be in header nav
+
+# - use environment variable on build command to include analytics: JEKYLL_ENV=production jekyll build
+
+
+
+# site settings
+
+title: LinuxCNC-on-RPi
+
+description: "How to get LinuxCNC running on a RPi"
+
+keywords: "LinuxCNC, Raspberry Pi, RPi, spiPRU"
+
+
+
+# author settings for cc-by
+
+author: Scott Alford
+
+pub_year: 2019
+
+github_username: scottalford75
+
+
+
+# add the full url for the github repository
+
+repo: "https://github.com/scottalford75/LinuxCNC-on-RPi"
+
+
+
+# urls
+
+# your gh-pages url: https://username.github.io
+
+url: https://scottalford75.github.io
+
+# your repository name: /repository
+
+baseurl: /LinuxCNC-on-RPi
+
+
+
+# analytics if desired (and use environment variable on build command)
+
+google_analytics: UA-74844011-1
+
+
+
+# defaults (to simplify front matter)
+
+defaults:
+
+  - scope:
+
+      path: ""
+
+    values:
+
+      layout: default
+
+
+
+# Build settings
+
+markdown: kramdown
