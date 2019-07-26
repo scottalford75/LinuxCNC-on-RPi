@@ -19,7 +19,7 @@ There is a great kernel building tuturial done be LeMaRiva. <https://lemariva.co
 
 ### QtPyVCP
 
-The standard Axis UI for LinuxCNC placed a lot of load onto the RPi. A new UI framework, QtPyVCP, that now has a VTK based G code backplot apparently is less resource heavy.
+The standard Axis UI for LinuxCNC placed a lot of load onto the RPi. There is now a new UI framework, QtPyVCP, that now has a VTK based G code backplot apparently is less resource heavy.
 
 > I'm currently testing QtPyVCP and I have also developed a HalPlot widget for a 3D Printer UI
 
