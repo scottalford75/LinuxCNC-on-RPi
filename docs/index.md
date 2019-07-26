@@ -9,6 +9,8 @@ title: Home
 
 # LinuxCNC on RPi 
 
+---
+
 <div class="toc" markdown="1">
 ## Contents:
 
@@ -17,7 +19,7 @@ title: Home
 {% endfor %}
 </div>
 
-##
+---
 
 ## Why LinuxCNC on Raspberry Pi?
 
