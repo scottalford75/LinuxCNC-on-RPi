@@ -256,7 +256,7 @@ In the Arch Linux AUR (Arch User Repository) there is a package LinuxCNC-sim. Th
 
 ### STEP 1: Install dependencies
 
-Unfortunately there are not armv7h versions of all required dependencies available to we will need to build and install these first.
+Unfortunately there are not armv7h versions of all required dependencies available so we will need to build and install these first.
 
 Arch Linux dependencies needed by LinuxCNC:
 
