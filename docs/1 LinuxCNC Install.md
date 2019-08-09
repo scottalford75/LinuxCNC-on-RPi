@@ -126,6 +126,13 @@ $ sudo systemctl enable sddm
 $ sudo systemctl start sddm
 ```
 
+Alternatively we can use lightdm.
+
+```
+$ sudo pacman -S lightdm lightdm-gtk-greater
+$ sudo systemctl enable lightdm
+$ sudo systemctl start lightdm
+```
 You should now be ready to login to the desktop environment. User “alarm” with password “alarm”.
 
 
