@@ -253,6 +253,16 @@ $ sudo systemctl enable vncserver@:1.service
 $ sudo systemctl start vncserver@:1.service
 ```
 
+We also need to setup TigerVNC to start our desktop environment when we connect remotely.  Modify  `/home/alarm/.vnc/xstartup` to read:
+
+```
+#!/bin/sh
+
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+exec dbus-launch startxfce4
+```
+
 The Raspberry Pi can now be accessed via a VNC client using alarmpi:1 as the VNC server to connect to.
 
 
