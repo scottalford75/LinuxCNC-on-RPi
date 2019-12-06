@@ -40,7 +40,7 @@ So what's changed...?
 
 Since 2018 there has now been an official RPI Preempt-RT kernel branch being maintained by Tiejun Chen. <https://github.com/raspberrypi/linux>
 
-There is a great kernel building tuturial done be LeMaRiva. <https://lemariva.com/blog/2018/07/raspberry-pi-preempt-rt-patching-tutorial-for-kernel-4-14-y>
+There is a great kernel building tuturial done be LeMaRiva. <https://lemariva.com/blog/2019/09/raspberry-pi-4b-preempt-rt-kernel-419y-performance-test>
 
 ### QtPyVCP
 
