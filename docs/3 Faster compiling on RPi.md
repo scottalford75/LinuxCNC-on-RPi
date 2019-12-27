@@ -1,5 +1,5 @@
 ---
-title: 2. Faster compiling on RPi
+title: 3. Faster compiling on RPi
 nav: true
 ---
 
