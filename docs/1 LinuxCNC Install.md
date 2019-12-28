@@ -397,7 +397,7 @@ $ make
 As we will be running a real machine, we need to setup the required permissions.
 
 ```
-$ make setuid
+$ sudo make setuid
 ```
 
 
