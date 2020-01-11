@@ -29,7 +29,7 @@ baseurl: /LinuxCNC-on-RPi
 
 
 # analytics if desired (and use environment variable on build command)
-google_analytics: UA-74844011-1
+# google_analytics: xxxxxx
 
 
 # defaults (to simplify front matter)
