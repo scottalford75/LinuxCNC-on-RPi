@@ -1,0 +1,29 @@
+# Maintainer: David Runge <dave@sleepmap.de>
+# Contributor: Joakim Hernberg <jhernberg at alchemy dot lu>
+
+pkgname=rt-tests
+pkgver=1.5
+pkgrel=2
+pkgdesc="A collection of latency testing tools for the linux(-rt) kernel"
+arch=('armv7h')
+url="https://git.kernel.org/pub/scm/utils/rt-tests/rt-tests.git/about/"
+license=('GPL2')
+groups=('realtime')
+depends=('python')
+source=("https://git.kernel.org/pub/scm/utils/${pkgname}/${pkgname}.git/snapshot/${pkgname}-${pkgver}.tar.gz")
+sha512sums=('fc8129a992ce09a9ebeae890d8ef9fc7ece3bbe4dbc2c290f2fc14818089882b7bdc24d1514ae5d3b4941d61f5248da76b01a660a82bb88ad5de09c89b3fb0e4')
+
+build() {
+  cd "${pkgname}-${pkgver}"
+  export PYLIB=$(python -c 'import distutils.sysconfig;  print(distutils.sysconfig.get_python_lib())')
+  make
+}
+
+package() {
+  cd "${pkgname}-${pkgver}"
+  make prefix=/usr DESTDIR="${pkgdir}" install
+  install -vDm 644 {MAINTAINERS,README.markdown} \
+    -t "${pkgdir}/usr/share/doc/${pkgname}"
+  # removing stale directories
+  rmdir -v "${pkgdir}/usr/"{src,share/man/man4}
+}
